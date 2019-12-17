@@ -22,15 +22,18 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
+  <!-- Top of the page -->
   <header>
     <h1>Sales dashboard</h1>
   </header>
 
+  <!-- Start of main content with indicators -->
   <main>
-
+    <!-- Start of left aside to display sales data -->
     <aside>
       <h3>Sales and states</h3>
       <div>
+        <!-- Form to sort the data -->
         <form action="index.html" method="post">
           <p>Product</p>
           <input type="text" name="article" value="">
@@ -43,6 +46,7 @@
           <input type="number" name="quantity" value="0">
           <input type="submit" name="submit" value="Sort">
         </form>
+        <!-- Table to display data -->
         <table>
           <caption>Sales</caption>
           <thead>
@@ -81,6 +85,7 @@
           </tbody>
         </table>
       </div>
+      <!-- General div to show states as squares -->
       <div>
         <div>
           <p>Stock</p>
@@ -96,7 +101,9 @@
         </div>
       </div>
     </aside>
+    <!-- End of aside -->
 
+    <!-- Start of the main section with indicators -->
     <section>
       <article>
         <h2>Tendency indicators</h2>
@@ -148,6 +155,8 @@
       </article>
     </section>
   </main>
+  <!-- End of main content with indicators -->
+
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
