@@ -97,7 +97,45 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
+
+  /* Utility classes */
+
+.flex {
+  display: flex
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+}
+
+.mainBackground {
+  background-color: blue;
+}
+
+.secondBackground {
+  background-color: green;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.circle {
+  border-radius: 100px;
+}
+
+  /* Common rules */
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
