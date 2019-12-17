@@ -98,7 +98,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  /* Utility classes */
+/* Utility classes */
+
+.container {
+  width: 90%;
+  margin: auto;
+}
 
 .flex {
   display: flex
@@ -116,6 +121,11 @@ textarea {
   justify-content: center;
 }
 
+.full-center {
+  justify-content: center;
+  align-items: center;
+}
+
 .mainBackground {
   background-color: blue;
 }
@@ -124,7 +134,7 @@ textarea {
   background-color: green;
 }
 
-.t-center {
+.tcenter {
   text-align: center;
 }
 
@@ -132,9 +142,28 @@ textarea {
   border-radius: 100px;
 }
 
-  /* Common rules */
+/* Common rules */
+h1, h2, h3, h4, h5 {
+  margin: 1;
+}
 
+/* Header rules */
 
+header {
+  height: 10vh;
+}
+
+/* Aside rules */
+
+aside {
+  width: 40%
+}
+
+/* Section rules */
+
+section {
+  width: 50%
+}
 
 /* ==========================================================================
    Helper classes
