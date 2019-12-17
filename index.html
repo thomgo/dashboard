@@ -32,18 +32,24 @@
       <h3>Sales and states</h3>
       <div>
         <form action="" method="post">
-          <input type="text" name="name" value="">
-          <input type="text" name="amount" value="">
-          <input type="text" name="" value="">
+          <p>Product</p>
+          <input type="text" name="article" value="">
+          <p>Order by price</p>
+          <select name="price" id="">
+            <option value="asc">- to +</option>
+            <option value="desc">+ to -</option>
+          </select>
+          <p>Quantity > to</p>
+          <input type="number" name="quantity" value="0">
           <input type="submit" name="submit" value="Sort">
         </form>
         <table>
           <caption>Sales</caption>
           <thead>
             <tr>
-              <th>Column1</th>
-              <th>Column2</th>
-              <th>Column3</th>
+              <th>Article</th>
+              <th>Price</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
