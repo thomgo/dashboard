@@ -170,6 +170,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid #4d9078;
 }
 
 .chart-container {
