@@ -142,15 +142,27 @@ textarea {
 }
 
 .success {
-  background-color: #5fad56;
+  background-color: #4d9078;
+}
+
+.border-succes {
+  border: 3px solid #4d9078;
 }
 
 .warning {
-  background-color: #f2c14e;
+  background-color: #f3de8a;
+}
+
+.border-warning {
+  border: 3px solid #f3de8a;
 }
 
 .danger {
-  background-color: #f78154;
+  background-color: #eb9486;
+}
+
+.border-danger {
+  border: 3px solid #eb9486;
 }
 
 .tcenter {
@@ -170,7 +182,6 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #4d9078;
 }
 
 .chart-container {
