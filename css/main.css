@@ -103,10 +103,12 @@ textarea {
 .container {
   width: 90%;
   margin: auto;
+  margin-top: 2em;
 }
 
 .flex {
-  display: flex
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .around {
@@ -144,6 +146,10 @@ textarea {
 
 .w-100 {
   width: 100%;
+}
+
+.w-50 {
+  width: 50%
 }
 
 /* Common rules */
@@ -184,6 +190,10 @@ form div {
 
 table {
   margin-top: 1em;
+}
+
+.state {
+  height: 20vh;
 }
 /* Section rules */
 
