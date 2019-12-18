@@ -166,18 +166,7 @@ textarea {
   width: 130px;
   border-radius: 50%;
   font-size: 0.8em;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.chart-container {
-  margin-bottom: 3em;
-}
-
-.chart div {
-  height: 100%;
 }
 
 .w-100 {
@@ -302,6 +291,13 @@ td {
   font-weight: bold;
 }
 
+.chart-container {
+  margin-bottom: 3em;
+}
+
+.chart div {
+  height: 100%;
+}
 
 /* ==========================================================================
    Helper classes
