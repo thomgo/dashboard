@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Muli|Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f688ef465a.js" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -96,16 +97,16 @@
       <!-- General div to show states as squares -->
       <div class="flex">
         <div class="w-50 flex full-center state success">
-          <p>Stock</p>
+          <p><i class="fas fa-boxes"></i> Stock</p>
         </div>
         <div class="w-50 flex full-center state warning">
-          <p>Cash</p>
+          <p><i class="fas fa-dollar-sign"></i> Cash</p>
         </div>
         <div class="w-50 flex full-center state danger">
-          <p>Conversion</p>
+          <p><i class="fas fa-trophy"></i> Conversion</p>
         </div>
         <div class="w-50 flex full-center state success">
-          <p>Warehouse</p>
+          <p><i class="fas fa-warehouse"></i> Warehouse</p>
         </div>
       </div>
     </aside>
@@ -114,7 +115,7 @@
     <!-- Start of the main section with indicators -->
     <section class="w-50">
       <article>
-        <h2>Tendency indicators</h2>
+        <h2>Tendency indicators <i class="fas fa-stethoscope"></i></h2>
         <div class="flex between">
           <div class="circle">
             <span>40$</span>
@@ -135,28 +136,28 @@
         </div>
       </article>
       <article>
-        <h2>Charts</h2>
-        <div class="flex between">
+        <h2>Charts <i class="far fa-chart-bar"></i></h2>
+        <div class="flex between chart-container">
           <p class="w-20">entertainement</p>
-          <div class="w-70">
-            <div>
-              <p>40%</p>
+          <div class="w-70 chart">
+            <div class="mainBackground w-40 flex full-center">
+              <span>40%</span>
             </div>
           </div>
         </div>
-        <div class="flex between">
+        <div class="flex between chart-container">
           <p class="w-20">High tech</p>
-          <div class="w-70">
-            <div>
-              <p>80%</p>
+          <div class="w-70 chart">
+            <div class="mainBackground w-80 flex full-center">
+              <span>80%</span>
             </div>
           </div>
         </div>
-        <div class="flex between">
+        <div class="flex between chart-container">
           <p class="w-20">Clothes</p>
-          <div class="w-70">
-            <div>
-              <p>60%</p>
+          <div class="w-70 chart">
+            <div class="mainBackground w-60 flex full-center">
+              <span>60%</span>
             </div>
           </div>
         </div>

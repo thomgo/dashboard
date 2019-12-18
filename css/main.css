@@ -164,16 +164,40 @@ textarea {
   align-items: center;
 }
 
+.chart-container {
+  margin-bottom: 3em;
+}
+
+.chart {
+  background-color: lightgrey;
+}
+
+.chart div {
+  height: 100%;
+}
+
 .w-100 {
   width: 100%;
+}
+
+.w-80 {
+  width: 80%;
 }
 
 .w-70 {
   width: 70%;
 }
 
+.w-60 {
+  width: 60%;
+}
+
 .w-50 {
   width: 50%;
+}
+
+.w-40 {
+  width: 40%;
 }
 
 .w-20 {
