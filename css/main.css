@@ -98,6 +98,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* Utility classes */
 
 .container {
@@ -129,11 +133,20 @@ textarea {
 }
 
 .mainBackground {
-  background-color: blue;
+  background-color: #4d9078;
+  color: white;
 }
 
-.secondBackground {
-  background-color: green;
+.success {
+  background-color: #5fad56;
+}
+
+.warning {
+  background-color: #f2c14e;
+}
+
+.danger {
+  background-color: #f78154;
 }
 
 .tcenter {
@@ -170,6 +183,7 @@ textarea {
 /* Common rules */
 h1, h2, h3, h4, h5 {
   margin: 1;
+  font-family: 'Muli', sans-serif;
 }
 
 /* Header rules */
