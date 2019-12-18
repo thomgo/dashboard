@@ -34,17 +34,25 @@
       <h3>Sales and states</h3>
       <div>
         <!-- Form to sort the data -->
-        <form action="index.html" method="post">
-          <p>Product</p>
-          <input type="text" name="article" value="">
-          <p>Order by price</p>
-          <select name="price" id="price-select">
-            <option value="asc">- to +</option>
-            <option value="desc">+ to -</option>
-          </select>
-          <p>Quantity > to</p>
-          <input type="number" name="quantity" value="0">
-          <input type="submit" name="submit" value="Sort">
+        <form action="index.html" method="post" class="flex">
+          <div>
+            <label for="name">Product</label>
+            <input type="text" id="name" name="article" value="">
+          </div>
+          <div>
+            <label for="price-select">Price</label>
+            <select name="price" id="price-select">
+              <option value="asc">- to +</option>
+              <option value="desc">+ to -</option>
+            </select>
+          </div>
+          <div>
+            <label for="quantity">Quantity > to</label>
+            <input type="number" id="quantity" name="quantity" value="0">
+          </div>
+          <div class="flex center" id="submit">
+            <input type="submit" name="submit" value="Sort">
+          </div>
         </form>
         <!-- Table to display data -->
         <table>

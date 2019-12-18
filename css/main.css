@@ -159,6 +159,25 @@ aside {
   width: 40%
 }
 
+form {
+  font-size: 0.8em;
+}
+
+form input, select {
+  width: 100%;
+  box-sizing : border-box;
+}
+
+
+form div {
+  width: 20%;
+  margin-right: 1em;
+}
+
+#submit {
+  align-items: flex-end;
+}
+
 /* Section rules */
 
 section {
