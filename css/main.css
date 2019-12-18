@@ -142,6 +142,10 @@ textarea {
   border-radius: 100px;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 /* Common rules */
 h1, h2, h3, h4, h5 {
   margin: 1;
@@ -178,6 +182,9 @@ form div {
   align-items: flex-end;
 }
 
+table {
+  margin-top: 1em;
+}
 /* Section rules */
 
 section {
