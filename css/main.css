@@ -145,24 +145,12 @@ textarea {
   background-color: #4d9078;
 }
 
-.border-succes {
-  border: 3px solid #4d9078;
-}
-
 .warning {
   background-color: #f3de8a;
 }
 
-.border-warning {
-  border: 3px solid #f3de8a;
-}
-
 .danger {
   background-color: #eb9486;
-}
-
-.border-danger {
-  border: 3px solid #eb9486;
 }
 
 .tcenter {
